@@ -1,0 +1,13 @@
+[project]
+name = "a1-getting-started-uv-marimo-vega-altair"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.5"
+dependencies = [
+    "altair[all]>=6.0.0",
+    "marimo>=0.19.2",
+    "nbformat>=5.10.4",
+    "pandas>=2.3.3",
+    "vega-datasets>=0.9.0",
+]
